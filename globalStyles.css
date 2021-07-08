@@ -1,0 +1,50 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --fade-white: rgba(255,255,255,.5);
+  --light-gray: rgba(255,255,255,.8);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  border: 2px solid red;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Times New Roman', Times, serif;
+  /* overflow-x: hidden; */
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+a:hover {
+  transition: .3s all ease;
+}
+
+button, input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.sections__container {
+  max-width: 1100px;
+  width: 100%;
+  border: 2px double darkviolet;
+  margin: 0 auto;
+}
