@@ -65,9 +65,10 @@ header {
 }
 
 .first__section-right-container {
-  max-width: 450px;
+  max-width: 550px;
   width: 100%;
   margin: 0 auto;
+  border: 2px solid wheat;
 }
 
 .third__section-right-container {
@@ -122,6 +123,7 @@ header {
     font-style: normal;
     margin-top: 10px;
     line-height: 20px;
+    /* width: 98%; */
 }
 
 .first__section-btn, .third__section-btn {
