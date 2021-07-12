@@ -1,5 +1,4 @@
 header {
-  border: 2px solid gold;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -40,7 +39,6 @@ header {
   background-size:cover;
   padding-bottom: 50px;
   padding-top: 50px;
-  border: 2px dotted red;
 }
 
 .third__section-left {
@@ -140,4 +138,32 @@ header {
 
 .third__section-btn {
   margin-top: 40px;
+}
+
+@media (max-width: 1100px) {
+  .first__section-right-container {
+    max-width: 500px;
+    border: 2px solid green;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 960px) {
+  .first__section-header {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 850px) {
+  .first__section-left, .first__section-right {
+    max-width: 400px;
+    height: 450px;
+  }
+ .first__section-btn {
+    margin-top: 50px;
+  }
+  .first__section-right-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
 }
