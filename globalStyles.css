@@ -47,3 +47,9 @@ button, input {
   border: 2px double darkviolet;
   margin: 0 auto;
 }
+
+@media (max-width: 650px) {
+  .sections__container {
+    max-width: 500px;
+  }
+}
