@@ -148,9 +148,6 @@
     margin-top: 0;
   }
   .card__container {
-    /* display: flex;
-    flex-direction: column;
-    flex-grow: 1; */
     margin: 20px auto;
   }
   .card__content h3 {
