@@ -147,24 +147,37 @@ header {
 @media (max-width: 1100px) {
   .first__section-right-container {
     max-width: 500px;
-    border: 2px solid green;
     padding: 0 20px;
   }
 }
 
 @media (max-width: 960px) {
-  .first__section-header {
+  .first__section-header, .third__section-header {
     font-size: 25px;
+  }
+  .third__section-btn {
+     padding: 18px 30px;
   }
 }
 
 @media (max-width: 850px) {
 
   .first__section-left,
-  .first__section-right {
-    max-width: 400px;
+  .first__section-right{
+    max-width: 420px;
     height: 450px;
   }
+  .third__section {
+   
+    justify-content: center;
+  }
+
+  .third__section-left, .third__section-right  {
+     max-width: 380px;
+    height: 450px;
+    
+  }
+
 
   .first__section-btn {
     margin-top: 60px;
@@ -194,9 +207,20 @@ header {
     margin: 0 auto;
   }
 
+  .third__section-left, .third__section-right  {
+     max-width: 300px;
+    height: 300px;
+    
+  }
+
+
   .first__section-btn {
     margin-top: 70px;
     padding: 15px 30px;
+  }
+  .third__section-btn {
+     padding: 15px 20px;
+     font-size: 10px;
   }
 
   .first__section-right-title {
@@ -204,9 +228,21 @@ header {
     margin-bottom: 40px;
   }
 
-  .first__section-header {
+  .first__section-header{
     font-size: 22px;
     line-height: 30px;
+  }
+
+  .third__section-header  {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:490px) {
+   .third__section-left, .third__section-right  {
+     max-width: 200px;
+    height: 200px;
+    
   }
 }
 
@@ -231,6 +267,14 @@ header {
   .first__section-btn {
     margin-top: 50px;
     padding: 15px 30px;
+  }
+}
+
+@media (max-width:320px) {
+   .third__section-left, .third__section-right  {
+     max-width: 120px;
+    height: 120px;
+    
   }
 }
 
