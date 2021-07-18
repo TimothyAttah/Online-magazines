@@ -4,7 +4,7 @@
     margin-top: 40px;
     font-size: 18.72px;
     font-weight: 700;
-    margin-left: 25px;
+    margin-left: 19px;
 }
 
 .second__section-container {
@@ -123,11 +123,21 @@
     flex-wrap: wrap;
   }
    .second__section-box {
-    margin: 20px 0;
+    margin: 20px auto;
     padding: 0 10px;
+    width: 400px;
   }
    .second__section-content-title {
     margin-bottom: 20px;
+  }
+  .section__topic {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width:420px) {
+   .section__topic {
+    margin-left: 10px;
   }
 }
 
@@ -140,6 +150,9 @@
   .second__section-content {
     margin-top: 20px;
   }
+  .section__topic {
+    margin-left: 12px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -149,8 +162,15 @@
   }
   .card__container {
     margin: 20px auto;
+    padding: 0 10px;
   }
   .card__content h3 {
     margin-top: 20px;
   }
+  .footer__title {
+  font-size: 30px;
+}
+.footer__text {
+  font-size: 10px;
+}
 }
