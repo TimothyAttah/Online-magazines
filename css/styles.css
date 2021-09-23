@@ -49,8 +49,8 @@ header.sticky .header__row-logo {
 }
 .first__section-left-container-wrapper {
 	width: 80%;
-	margin: 80px auto;
-	min-height: 500px;
+	margin: 80px auto 40px;
+	/* min-height: 500px; */
 }
 .first__section-left-container-top {
 	padding-bottom: 60px;
