@@ -134,3 +134,12 @@ Global styles
 .fourth__section button{
   margin-top: 60px;
 }
+/* ----------------------------
+  Img 
+-------------------------------- */
+.second__section-item img, 
+.third__section-item img{
+  width: 100%;
+  display: inline-block;
+  border-radius: 5px;
+}
