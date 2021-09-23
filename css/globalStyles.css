@@ -102,6 +102,12 @@ Global styles
   letter-spacing: 3px;
   text-decoration: underline;
 }
+.second__section, 
+.third__section, 
+.fourth__section, 
+.footer__section{
+  margin-top: 40px;
+}
 
 /* ----------------------
   Buttons
