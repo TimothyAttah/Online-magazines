@@ -1,4 +1,6 @@
-/* ------------ Global styles ----------------- */
+/* ----------------------------------
+Global styles with custom css rules
+---------------------------------------- */
 :root{
   --bg-white: #fff;
   --bg-black-900: #000000;
@@ -42,15 +44,17 @@ img{
 button{
   border: none
 }
-.container{
+
+/* ----------------------------------
+Global styles 
+---------------------------------------- */
+.container, .second__container{
   max-width: 1500px;
   width: 100%;
   margin: 0 auto;
 }
 .second__container{
-  max-width: 1500px;
   width: 80%;
-  margin: 0 auto;
 }
 .row{
   display: flex;
@@ -64,7 +68,7 @@ button{
 }
 .hover-in-shadow{
   position: relative;
-  /* z-index: 1; */
+  z-index: 1;
 }
 .hover-in-shadow:hover{
   box-shadow: var(--outer-shadow-0);
@@ -86,8 +90,32 @@ button{
   font-style: normal;
   font-weight: normal;
 }
+.title{
+   text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 18.72px;
+    font-weight: 700;
+}
 .subtitle {
   text-transform: uppercase;
   letter-spacing: 3px;
   text-decoration: underline;
+}
+
+/* ----------------------
+  Buttons
+-------------------------- */
+
+.btn{
+  display: flex;
+    background-color: #000;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
