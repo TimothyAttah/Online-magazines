@@ -119,3 +119,17 @@ Global styles
     margin: 0 auto;
     margin-top: 50px;
 }
+.left-button button, .fourth__section button {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  padding: 18px 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  border: 1px solid white;
+  text-transform: uppercase;
+}
+.fourth__section button{
+  margin-top: 60px;
+}
