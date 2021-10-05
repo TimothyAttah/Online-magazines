@@ -1,235 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="/globalStyles.css" />
-		<link rel="stylesheet" href="/firstSection.css" />
-		<link rel="stylesheet" href="/secondSection.css" />
+		<link rel="stylesheet" href="css/globalStyles.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/mediaQueries.css" />
 		<title>Online Magazine</title>
 	</head>
+
 	<body>
 		<main>
-			<header>
-				<img src="/images/Group 4.png" alt="" class="header__logo" />
-					<h1> Suffix</h1>
-					<!-- <div class="header__title">
-						<h1> Suffix</h1>
-					</div> -->
-				<!-- <div class="header__container">
-					<div class="header__logo-container">
-						<img src="/images/Group 4.png" alt="" class="header__logo" />
-					</div>
-					<div class="header__title">
-						<h1> Suffix</h1>
-					</div>
-				</div> -->
-			</header>
-			<section class="first__section">
-				<div class="first__section-left"></div>
-				<div class="first__section-right">
-					<div class="first__section-right-container">
-						<div class="first__section-right-title">
-							<p class="date">10/10/2020</p>
-							<p class="subtitle">Lifestyle</p>
+			<header class="header">
+				<div class="container">
+					<div class="header__row row justify-content-between">
+						<div class="header__row-logo">
+							<a href="#"><img src="/images/logo.png" alt="" /></a>
 						</div>
-						<h2 class="first__section-header">At vero eos at accusamus et</h2>
-						<p class="first__section-text">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
-							harum sapiente assumenda in voluptas vel neque quae, nesciunt
-							adipisci ipsam veritatis voluptatum tempore rem maiores at
-							laudantium animi magni laborum.
-						</p>
-						<button class="first__section-btn">Read more</button>
+						<div class="header__row-title">
+							<h2>suffix</h2>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="first__section">
+				<div class="container">
+					<div class="row first__section-row">
+						<div class="first__section-right-container"></div>
+						<div class="first__section-left-container">
+							<div class="first__section-left-container-wrapper">
+								<div class="row justify-content-between first__section-left-container-top">
+									<div class="date">10/10/2020</div>
+									<div class="subtitle">lifestyle</div>
+								</div>
+								<div class="first__section-left-container-content">
+									<h1>At vero eos at accusamus et</h1>
+									<p>
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+										Eveniet harum sapiente assumenda in voluptas vel neque quae,
+										nesciunt adipisci ipsam veritatis voluptatum tempore rem
+										maiores at laudantium animi magni laborum.
+									</p>
+								</div>
+								<div class="first__section-left-container-button">
+									<button>Read more</button>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
-			<div class="sections__container">
-				<section class="second__section">
-					<h3 class="section__topic">FEATURED</h3>
-					<div class="second__section-container">
-						<div class="second__section-box">
-							<img
-								src="/images/photo1.png"
-								alt=""
-								class="second__section-img"
-							/>
-							<div class="second__section-info">
-								<p class="date">10/10/2020</p>
-								<p class="subtitle">Lifestyle</p>
-							</div>
-							<div class="second__section-content">
-								<h2 class="second__section-content-title">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-								</h2>
-								<p class="second__section-content-text">
-									Eveniet harum sapiente assumenda in voluptas vel neque quae,
-									nesciunt adipisci at laudantium animi magni laborum.
-								</p>
-							</div>
-						</div>
-						<div class="second__section-box">
-							<img
-								src="/images/photo3.png"
-								alt=""
-								class="second__section-img"
-							/>
-							<div class="second__section-info">
-								<p class="date">10/10/2020</p>
-								<p class="subtitle">Lifestyle</p>
-							</div>
-							<div class="second__section-content">
-								<h2 class="second__section-content-title">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-								</h2>
-								<p class="second__section-content-text">
-									Eveniet harum sapiente assumenda in voluptas vel neque quae,
-									nesciunt adipisci at laudantium animi magni laborum.
-								</p>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="cards__section">
-					<div class="card__section-container">
-						<div class="card__container">
-							<div class="card__img">
-								<img src="/images/img-1.png" alt="" />
-							</div>
-							<div class="second__section-info">
-								<p class="date card__date">10/10/2020</p>
-								<p class="subtitle card__subtitle">Lifestyle</p>
-							</div>
-							<div class="card__content">
-								<h3>AT VERO EOS ET ACCUSAMUS ET IUSTO</h3>
-							</div>
-						</div>
-						<div class="card__container">
-							<div class="card__img">
-								<img src="/images/img-2.png" alt="" />
-							</div>
-							<div class="second__section-info">
-								<p class="date card__date">10/10/2020</p>
-								<p class="subtitle card__subtitle">Lifestyle</p>
-							</div>
-							<div class="card__content">
-								<h3>AT VERO EOS ET</h3>
-							</div>
-						</div>
-						<div class="card__container">
-							<div class="card__img">
-								<img src="/images/img-3.png" alt="" />
-							</div>
-							<div class="second__section-info">
-								<p class="date card__date">10/10/2020</p>
-								<p class="subtitle card__subtitle">Lifestyle</p>
-							</div>
-							<div class="card__content">
-								<h3>AT VERO EOS ET ACCUSAMUS ET IUSTO</h3>
-							</div>
-						</div>
-					</div>
-					<button class="card__btn">See all</button>
-				</section>
-				<section class="third__section">
-					<div class="third__section-left"></div>
-					<div class="third__section-right">
-						<div class="third__section-right-container">
-							<h2 class="third__section-header">ISSUE 22 - MAY 2020</h2>
-							<button class="third__section-btn">Subscribe now</button>
-						</div>
-					</div>
-				</section>
-				<section class="cards__section">
-					<h3 class="section__topic">Interviews</h3>
-					<div class="card__section-container">
-						<div class="card__container">
-							<div class="card__img">
-								<img src="/images/img-5.png" alt="" />
-							</div>
-							<div class="second__section-info">
-								<p class="date card__date">10/10/2020</p>
-								<p class="subtitle card__subtitle">Interviews</p>
-							</div>
-							<div class="card__content">
-								<h3>AT VERO EOS ET ACCUSAMUS ET IUSTO</h3>
-							</div>
-						</div>
-						<div class="card__container">
-							<div class="card__img">
-								<img src="/images/img-6.png" alt="" />
-							</div>
-							<div class="second__section-info">
-								<p class="date card__date">10/10/2020</p>
-								<p class="subtitle card__subtitle">Interviews</p>
-							</div>
-							<div class="card__content">
-								<h3>AT VERO EOS ET</h3>
-							</div>
-						</div>
-						<div class="card__container">
-							<div class="card__img">
-								<img src="/images/img-7.png" alt="" />
-							</div>
-							<div class="second__section-info">
-								<p class="date card__date">10/10/2020</p>
-								<p class="subtitle card__subtitle">Interviews</p>
-							</div>
-							<div class="card__content">
-								<h3>AT VERO EOS ET ACCUSAMUS ET IUSTO</h3>
-							</div>
-						</div>
-					</div>
-					<button class="card__btn">See all</button>
-				</section>
-				<section class="cards__section">
-					<h3 class="section__topic">News</h3>
-					<div class="card__section-container">
-						<div class="card__container">
-							<div class="card__img">
-								<img src="/images/photo2.png" alt="" />
-							</div>
-							<div class="second__section-info">
-								<p class="date card__date">10/10/2020</p>
-								<p class="subtitle card__subtitle">News</p>
-							</div>
-							<div class="card__content">
-								<h3>AT VERO EOS ET ACCUSAMUS ET IUSTO</h3>
-							</div>
-						</div>
-						<div class="card__container">
-							<div class="card__img">
-								<img src="/images/photo4.png" alt="" />
-							</div>
-							<div class="second__section-info">
-								<p class="date card__date">10/10/2020</p>
-								<p class="subtitle card__subtitle">News</p>
-							</div>
-							<div class="card__content">
-								<h3>AT VERO EOS ET</h3>
-							</div>
-						</div>
-						<div class="card__container">
-							<div class="card__img">
-								<img src="/images/photo6.png" alt="" />
-							</div>
-							<div class="second__section-info">
-								<p class="date card__date">10/10/2020</p>
-								<p class="subtitle card__subtitle">News</p>
-							</div>
-							<div class="card__content">
-								<h3>AT VERO EOS ET ACCUSAMUS ET IUSTO</h3>
-							</div>
-						</div>
-					</div>
-					<button class="card__btn">See all</button>
-				</section>
+
+			<div class="second__container">
+				<h4 class="title">Featured</h4>
 			</div>
+
+			<section class="second__container second__section">
+			<div class="row justify-content-between second-row">
+				<div class="second__section-item outer-shadow">
+					<img src="images/img-1.png" alt="img-1">
+					<div class="row justify-content-between">
+						<div class="date second-date">10/10/2020</div>
+						<div class="subtitle second-subtitle">lifestyle</div>
+					</div>
+					<h2 class="second__section-item-title">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					</h2>
+					<p class="second__section-item-text">
+						Eveniet harum sapiente assumenda in voluptas vel neque quae,
+						nesciunt adipisci at laudantium animi magni laborum.
+					</p>
+				</div>
+				<div class="second__section-item outer-shadow">
+					<img src="images/img-2.png" alt="img-2">
+					<div class="row justify-content-between">
+						<div class="date second-date">10/10/2020</div>
+						<div class="subtitle second-subtitle">lifestyle</div>
+					</div>
+					<h2 class="second__section-item-title">
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					</h2>
+					<p class="second__section-item-text">
+						Eveniet harum sapiente assumenda in voluptas vel neque quae,
+						nesciunt adipisci at laudantium animi magni laborum.
+					</p>
+				</div>
+			</div>
+			</div>
+			</section>
+
+			<section class="third__section">
+				<div class="second__container">
+					<div class="row justify-content-between">
+						<div class="third__section-item outer-shadow">
+							<img src="images/img-3.png" alt="">
+							<div class="row justify-content-between">
+								<div class="date second-date">10/10/2020</div>
+								<div class="subtitle second-subtitle">lifestyle</div>
+							</div>
+							<h3 class="third__section-item-title"> at vero eos et accusamus et iusto</h3>
+						</div>
+						<div class="third__section-item outer-shadow">
+							<img src="images/img-4.png" alt="">
+							<div class="row justify-content-between">
+								<div class="date second-date">10/10/2020</div>
+								<div class="subtitle second-subtitle">lifestyle</div>
+							</div>
+							<h3 class="third__section-item-title"> at vero eos et</h3>
+						</div>
+						<div class="third__section-item outer-shadow">
+							<img src="images/img-5.png" alt="">
+							<div class="row justify-content-between">
+								<div class="date second-date">10/10/2020</div>
+								<div class="subtitle second-subtitle">lifestyle</div>
+							</div>
+							<h3 class="third__section-item-title"> at vero eos et accusamus et iusto</h3>
+						</div>
+					</div>
+					<button class="btn">See all</button>
+				</div>
+			</section>
+			<section class="fourth__section">
+				<div class="second__container">
+					<div class="row">
+						<div class="fourth__section-left"></div>
+						<div class="fourth__section-right">
+							<h2>Issue 22 - may 2021</h2>
+							<button>Subscribe now</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="second__container">
+				<h4 class="title">Interviews</h4>
+			</div>
+			<section class="third__section">
+				<div class="second__container">
+					<div class="row justify-content-between">
+						<div class="third__section-item outer-shadow">
+							<img src="images/img-7.png" alt="">
+							<div class="row justify-content-between">
+								<div class="date second-date">10/10/2020</div>
+								<div class="subtitle second-subtitle">Interviews</div>
+							</div>
+							<h3 class="third__section-item-title"> at vero eos et accusamus et iusto</h3>
+						</div>
+						<div class="third__section-item outer-shadow">
+							<img src="images/img-8.png" alt="">
+							<div class="row justify-content-between">
+								<div class="date second-date">10/10/2020</div>
+								<div class="subtitle second-subtitle">Interviews</div>
+							</div>
+							<h3 class="third__section-item-title"> at vero eos et</h3>
+						</div>
+						<div class="third__section-item outer-shadow">
+							<img src="images/img-9.png" alt="">
+							<div class="row justify-content-between">
+								<div class="date second-date">10/10/2020</div>
+								<div class="subtitle second-subtitle">Interviews</div>
+							</div>
+							<h3 class="third__section-item-title"> at vero eos et accusamus et iusto</h3>
+						</div>
+					</div>
+					<button class="btn">See all</button>
+				</div>
+			</section>
+			<div class="second__container">
+				<h4 class="title">News</h4>
+			</div>
+			<section class="third__section">
+				<div class="second__container">
+					<div class="row justify-content-between">
+						<div class="third__section-item outer-shadow">
+							<img src="images/img-10.png" alt="">
+							<div class="row justify-content-between">
+								<div class="date second-date">10/10/2020</div>
+								<div class="subtitle second-subtitle">News</div>
+							</div>
+							<h3 class="third__section-item-title"> at vero eos et accusamus et iusto</h3>
+						</div>
+						<div class="third__section-item outer-shadow">
+							<img src="images/img-11.png" alt="">
+							<div class="row justify-content-between">
+								<div class="date second-date">10/10/2020</div>
+								<div class="subtitle second-subtitle">News</div>
+							</div>
+							<h3 class="third__section-item-title"> at vero eos et</h3>
+						</div>
+						<div class="third__section-item outer-shadow">
+							<img src="images/img-12.png" alt="">
+							<div class="row justify-content-between">
+								<div class="date second-date">10/10/2020</div>
+								<div class="subtitle second-subtitle">News</div>
+							</div>
+							<h3 class="third__section-item-title"> at vero eos et accusamus et iusto</h3>
+						</div>
+					</div>
+					<button class="btn">See all</button>
+				</div>
+			</section>
 			<footer class="footer__section">
-				<h2 class="footer__title">Suffix</h2>
-				<p class="footer__text">Designed By Timothy Attah</p>
+				<div class="footer__row">
+					<h2>suffix</h2>
+					<p>Designed by Timothy Attah &copy; 2021</p>
+				</div>
 			</footer>
 		</main>
+		<script src="js/index.js"></script>
 	</body>
 </html>

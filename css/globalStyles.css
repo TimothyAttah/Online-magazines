@@ -1,0 +1,153 @@
+/* ----------------------------------
+Global styles with custom css rules
+---------------------------------------- */
+:root {
+	--bg-white: #fff;
+	--bg-black-900: #000000;
+	--bg-black-100: #dddddd;
+	--bg-black-50: #eff0f4;
+	--text-white-900: #ffffff;
+	--text-black-900: #000000;
+	--text-black-700: #555555;
+	--text-black-600: #666666;
+	--text-black-300: #bbbbbb;
+	--outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+	--outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+	--inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+}
+
+body {
+	overflow-x: hidden;
+	line-height: 1.5;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+::after,
+::before {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img {
+	vertical-align: middle;
+	max-width: 100%;
+}
+button {
+	border: none;
+}
+
+/* ----------------------------------
+Global styles 
+---------------------------------------- */
+.container,
+.second__container {
+	max-width: 1500px;
+	width: 100%;
+	margin: 0 auto;
+}
+.second__container {
+	width: 80%;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.justify-content-between {
+	justify-content: space-between;
+}
+.outer-shadow {
+	box-shadow: var(--outer-shadow);
+}
+.hover-in-shadow {
+	position: relative;
+	z-index: 1;
+}
+.hover-in-shadow:hover {
+	box-shadow: var(--outer-shadow-0);
+}
+.hover-in-shadow::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease;
+}
+.hover-in-shadow:hover::after {
+	box-shadow: var(--inner-shadow);
+}
+.date {
+	letter-spacing: 5px;
+	font-style: normal;
+	font-weight: normal;
+}
+.title {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 30px;
+	font-size: 18.72px;
+	font-weight: 700;
+}
+.subtitle {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-decoration: underline;
+}
+.second__section,
+.third__section,
+.fourth__section,
+.footer__section {
+	margin-top: 40px;
+}
+
+/* ----------------------
+  Buttons
+-------------------------- */
+.btn {
+	display: flex;
+	background-color: #000;
+	color: #fff;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	width: 250px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.first__section button,
+.fourth__section button {
+	display: flex;
+	background-color: #000;
+	color: #fff;
+	padding: 18px 50px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 120px;
+	border: 1px solid white;
+	text-transform: uppercase;
+}
+.fourth__section button {
+	margin-top: 60px;
+}
+
+/* ----------------------------
+  Img 
+-------------------------------- */
+.second__section-item img,
+.third__section-item img {
+	width: 100%;
+	display: inline-block;
+	border-radius: 5px;
+}
